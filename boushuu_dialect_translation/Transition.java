@@ -25,7 +25,7 @@ public class Transition { //処理の時系列に沿って記述していく
 		System.out.println();
 		System.out.println("★翻訳だっぺぇ(・∀・)\n\n" + "\t" + Translate.trans_txt + "\n");
 	}
-	public static void continu() {
+	public static void reEnter() {
 		System.out.println();
 		System.out.println("\t＿人人人人人人人人＿");
 		System.out.println("\t＞　 房州弁翻訳 　＜	引き続き入力を受け付け中です！(◍•ᴗ•◍)");
