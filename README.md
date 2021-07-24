@@ -1,6 +1,6 @@
 # Boushuu_Dialect_Translation
 ## 自作「Boushuu_Dialect_Translation - 日本語名：房州弁翻訳」  
-<img src="https://github.com/kimihiro-abe/Boushuu_Dialect_Translation/blob/main/Boushuu_Dialect_Translation_01.png" width="50%">
+<img src="https://github.com/kimihiro-abe/Boushuu_Dialect_Translation/blob/main/Boushuu_Dialect_Translation_01.png" width="60%">
 <br>
 
 ### - 序文 -
@@ -30,7 +30,7 @@
 <br>
 どんなものが出力されるのか？  
 参考として以下の画像をご参照ください。  
-<img src="https://github.com/kimihiro-abe/Boushuu_Dialect_Translation/blob/main/Boushuu_Dialect_Translation_02.png" width="50%">
+<img src="https://github.com/kimihiro-abe/Boushuu_Dialect_Translation/blob/main/Boushuu_Dialect_Translation_02.png" width="60%">
 <br>
 
 ### - ファイルについて -
@@ -53,13 +53,12 @@ BDT_main.javaから実行してください。
 
 それと忘れてはならないのがBDT_dic.csv。  
 これが辞書ファイルになります。併せてご利用ください。  
-
 <br>
 
 ### - 翻訳システムの解説 -
 以下の画像のようにMapのkeyに標準語、valueに房州弁を格納し、  
 入力された文章・単語に対してkeyで全検索・置換処理をしています。  
- <img src="https://github.com/kimihiro-abe/Boushuu_Dialect_Translation/blob/main/Boushuu_Dialect_Translation_03.png" width="50%">
+ <img src="https://github.com/kimihiro-abe/Boushuu_Dialect_Translation/blob/main/Boushuu_Dialect_Translation_03.png" width="45%">
 
 <hr>
 
@@ -90,7 +89,7 @@ BDT_main.javaから実行してください。
 文字表現を考慮した際、例えば「凄い」という語は  
 「凄い」「スゴイ」「スゴい」「すごい」と入力される可能性があります。  
 このことに、手を動かし始めてから気付きまして、  
-内心「想定の１０倍以上大変では？」となりました。  
+内心「想定の１０倍以上大変では？」と感じました。  
 <br>
 そういった事情もあり、  
 現状のverの辞書ファイルでは完成度をつめきれておりません。  
